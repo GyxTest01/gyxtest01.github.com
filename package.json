@@ -1,0 +1,19 @@
+{
+  "name": "vuepress-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-medium-zoom": "^1.9.10",
+    "eslint": "^9.10.0",
+    "vuepress": "^1.9.10",
+    "vuepress-theme-reco": "^1.6.17"
+  },
+  "scripts": {
+    "docs:dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs",
+    "docs:build": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs"
+  },
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
+}
